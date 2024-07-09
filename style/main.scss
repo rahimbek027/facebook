@@ -4,3 +4,96 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    gap: 100px;
+
+    .facebook{
+
+        h1{
+            font-size: 60px;
+            margin-block-end: 20px;
+            color: rgb(80, 80, 230);
+            font-family: monospace;
+        }
+
+        p{
+            font-size: 30px;
+            max-width: 500px;
+        }
+    }
+
+    .register{
+     max-width: 350px;
+     background-color: white;
+     border-radius: 15px;
+     
+    
+        form{
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              gap: 15px;
+              padding-inline: 15px;
+              padding-block: 20px;
+            input{
+              width: 315px;
+              height: 50px;
+              padding-left: 10px;
+              font-size: 18px;
+              border-radius: 10px;
+              border: none;
+              border: solid rgb(235, 233, 230);
+              
+            }
+
+            .button{
+                height: 50px;
+                width: 315px;
+                font-size: 18px;
+                border-radius: 10px;
+                background-color: rgb(80, 80, 230);
+                border: none;
+                color: white;
+                cursor: pointer;
+
+                a{
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+
+            .button:hover{
+                background-color: rgb(103, 103, 193);
+            }
+
+            .signUp{
+                height: 50px;
+                width: 170px;
+                font-size: 18px;
+                border-radius: 10px;
+                background-color: rgb(69, 187, 69);
+                color: white;
+                border: none;
+                cursor: pointer;
+
+                a{
+                    text-decoration: none;
+                    color: white;
+                }
+
+                
+            }
+
+            .signUp:hover{
+                background-color:rgb(100, 180, 100);
+            }
+        }
+    }
+}
